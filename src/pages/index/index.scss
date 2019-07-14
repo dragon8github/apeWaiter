@@ -1,0 +1,94 @@
+@import '../../scss/functions.scss';
+
+.index {
+  margin: 37px 25px;
+}
+
+.title {
+  color: #252525;
+  font-size: 34px;
+}
+
+.ad {
+  margin-top: 20px;
+  height: 580px;
+  // 微信小程序必须使用这个
+  white-space: nowrap;
+}
+
+.ad__item {
+  position: relative;
+  display: inline-block;
+  
+  background-color: #959595;
+	width: 604px;
+  height: 100%;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+  .ad__text {
+    height: 110px;
+    padding: 25px;
+  	color: #ffffff;
+    position: absolute;
+    bottom: 0;
+  }
+
+    .ad__text--1 {
+    	 font-size: 22px;
+    }
+
+    .ad__text--2 {
+    	 font-size: 34px;
+       display: block;
+       margin-top: 10px;
+    }
+
+.row {
+  margin-top: 30px;
+}
+
+.row__head {
+	@include flex(b, c);
+}
+
+    .head__title {
+    	font-size: 34px;
+      color: #252525;
+    }
+
+    .head__more {
+    	color: #000000;
+      font-size: 22px;
+      text-decoration: underline;
+    }
+
+.items {
+	
+}
+
+  .item {
+  	
+  }
+
+    .item__pic {
+    	
+    }
+
+    .item__intr {
+    	
+    }
+
+      .item__intr--title {
+      	
+      }
+
+      .item__intr--price {
+      	
+      }
+
+      .item__intr--article {
+      	
+      }
+
