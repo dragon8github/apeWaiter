@@ -1,0 +1,28 @@
+.More {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.More__Item {
+  @include flex(c, c);
+  flex-direction: column;
+
+  width: 49.8%;
+  height: 320px;
+  border-bottom: 3px solid #ccc;
+
+  &:nth-child(odd) {
+    border-right: 3px solid #ccc;
+  }
+}
+
+.More__Icon {
+  width: 181px;
+  height: 181px;
+}
+
+.More__Text {
+  font-size: 29px;
+  color: #464646;
+  margin-top: 25px;
+}

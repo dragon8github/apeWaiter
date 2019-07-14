@@ -1,0 +1,57 @@
+@import '../../scss/functions.scss';
+
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login__backgroud {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.login__forma {
+  margin-top: 100px;
+  width: 282px;
+  height: 282px;
+}
+
+.login__font {
+  margin-top: 80px;
+  width: 469px;
+  height: 171px;
+}
+
+.login__button {
+  width: 556px;
+  height: 109px;
+  font-size: 39px;
+  color: #fdfdfd;
+  text-align: center;
+  line-height: 109px;
+  background-image: linear-gradient(-90deg, #6541ce 0%, #ef39ff 100%), linear-gradient(#fdfdfd, #fdfdfd);
+  background-blend-mode: normal, normal;
+  box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+
+  &.button-hover {
+  	opacity: .7;
+  }
+}
+
+.login__Login {
+  margin-top: 100px;
+}
+
+.login__Register {}
+
+.login__direct {
+  font-size: 39px;
+  color: #fdfdfd;
+  margin-top: 50px;
+}

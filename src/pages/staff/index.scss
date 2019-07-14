@@ -1,0 +1,40 @@
+@import '../scss/functions.scss';
+
+.Staff {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Staff__Item {
+  @include flex(c, s);
+
+  height: 131px;
+  border-bottom: 1px solid #eee;
+}
+
+.Staff__Avatar {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  background-color: #fffff;
+  padding: 5px;
+  border: solid 4px #7740D4;
+  margin-left: 42px;
+  margin-right: 35px;
+}
+
+.Staff__Info {}
+
+.Staff__Info--Name {
+  font-size: 34px;
+  display: block;
+  color: #2c2c2c;
+}
+
+.Staff__Info--Intr {
+  color: #888888;
+  display: block;
+  font-size: 21px;
+  margin-top: 5px;
+}

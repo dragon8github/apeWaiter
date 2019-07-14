@@ -1,0 +1,35 @@
+@import '../scss/functions.scss';
+
+.Footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 116px;
+  z-index: 199307100337;
+
+  @include flex(a, c);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Footer__Item {
+  @include flex(c, c);
+  flex-direction: column;
+
+  opacity: .3;
+  
+  &.is-active {
+    opacity: 1;
+  }
+}
+
+.Footer__Item--img {
+  width: 60px;
+  height: 60px;
+}
+
+.Footer__Item--name {
+  font-size: 18px;
+  color: #2c2c2c;
+  margin-top: 5px;
+}
